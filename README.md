@@ -3,6 +3,8 @@
 
 ## Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike.
 
+## You can see demo here https://kunal-umap.github.io/Developer-Portfolio/
+
 ### How to go about
 This is the basic layout of the website where things need to be replaced with your data and credentials, follow these easy steps given down below to get your website working: 
 
