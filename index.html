@@ -17,24 +17,24 @@
         <!-- Fixed Navigation Starts -->
         <ul class="nav">
             <li class="navOpt">
-                <a href="index.html">
-                    <img src="./img/homeIcon.png" alt="H">
+                <a href="#home">
+                    <img src="assets/homeIcon.png" alt="H">
                     <div class="op">
                         <h2>Home</h2>
                     </div>
                 </a>
             </li>
             <li class="navOpt">
-                <a href="about.html">
-                    <img src="./img/about.png" alt="H">
+                <a href="#about">
+                    <img src="assets/about.png" alt="H">
                     <div class="op">
                         <h2>About</h2>
                     </div>
                 </a>
             </li>
             <li class="navOpt">
-                <a href="skill.html">
-                    <img src="./img/skill.png" alt="H">
+                <a href="#skills">
+                    <img src="assets/skill.png" alt="H">
                     <div class="op">
                         <h2>Skills</h2>
                     </div>
@@ -60,23 +60,227 @@
         </nav> -->
     </header>
 
-    <div class="container">
+    <div class="container" id="home">
         <div class="imgContainer">
-            <img src="./img/profile.jpg" alt="">
+            <img src="assets/profile.jpg" alt="">
         </div>
 
         <div class="informationContainer">
             <h6>HI there !</h6>
-            <h1><span>I'M</span> Kunal Umap</h1>
+            <h1><span>I'M</span> Jon Doe</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad nisi voluptates at nulla earum voluptatibus ipsa perspiciatis vel eius et ratione quae laborum dolores, incidunt quis corporis!</p>
             <a href="#">
                 <span>More About Me</span>
-                <img src="./img/about.png" alt="">
+                <img src="assets/about.png" alt="">
                 
             </a>
         </div>
 
     </div>
 
+
+    
+  <!-- About me section starts -->
+  <div class="about-container" id="about">
+    <img src="assets/profile.jpg" alt=""> 
+    <!-- about text -->
+    <div class="about-text">
+      <p> <span> About</span> Me</p>
+      <p>Developer & Designer</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam, magni laboriosam culpa deleniti odit dolores maxime fuga, id at adipisci nihil magnam, eveniet cupiditate quo ad in neque delectus?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, laboriosam!</p>
+ 
+      <button>Hire Me</button>
+      <button>Download CV</button>
+    </div>
+   </div>
+   <!-- About me section Ends-->
+ 
+   <!-- Projects Section Starts Here -->
+   <section class="projects" id="projects">
+     <h2 class="projects-title">🔹<span>My</span> Projects🔹</h2>
+     <div class="projects-container">
+       <div class="project-container project-card">
+         <img
+           src="assets/img1.jpg"
+           alt="expense-tracker"
+           loading="lazy"
+           class="project-pic"
+         />
+         <h3 class="project-title">Expense Tracker</h3>
+         <p class="project-details">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+           ratione vel inventore labore commodi modi quos culpa aut saepe!
+           Alias!
+         </p>
+         <a href="#" target="_blank" class="project-link">Check it Out</a>
+       </div>
+       <div class="project-container project-card">
+         <img
+           src="assets/img2.jpg"
+           alt="netflic-clone"
+           loading="lazy"
+           class="project-pic"
+         />
+         <h3 class="project-title">Netflix Clone</h3>
+         <p class="project-details">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+           ratione vel inventore labore commodi modi quos culpa aut saepe!
+           Alias!
+         </p>
+         <a href="#" target="_blank" class="project-link">Check it Out</a>
+       </div>
+       <div class="project-container project-card">
+         <img
+           src="assets/img3.jpg"
+           alt="greeny-earth"
+           loading="lazy"
+           class="project-pic"
+         />
+         <h3 class="project-title">Greeny Earth</h3>
+         <p class="project-details">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+           ratione vel inventore labore commodi modi quos culpa aut saepe!
+           Alias!
+         </p>
+         <a href="#" target="_blank" class="project-link">Check it Out</a>
+       </div>
+     </div>
+   </section>
+ <!-- Projects section ends here -->
+ 
+ <!-- MySkills Section starts here -->
+ <section class="skills" id="skills">
+   <h2 class="skill-header">🔹<span>My Top</span> Skills🔹</h2>
+ 
+   <div class="skills-wrapper">
+     <div class="first-set animate__animated animate__pulse">
+       <img
+         src="assets/javascript.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+       <img
+         src="assets/css.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+       <img
+         src="assets/html.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+     </div>
+ 
+     <div class="second-set animate__animated animate__pulse">
+       <img
+         src="assets/bootstrap.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+       <img
+         src="assets/react.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+       <img
+         src="assets/git.svg"
+         alt=""
+         loading="lazy"
+         class="icon icon-card"
+       />
+     </div>
+   </div>
+ </section>
+ <!-- My skills Section Ends -->
+ 
+ <!-- Contact Us section starts -->
+ <section class="contact" id="contact">
+   <h2>🔹<span>Get in Touch</span> With Me🔹</h2>
+   <div class="contact-form-container">
+     <div class="contact-form">
+       <form action="https://formspree.io/f/xyylngw" method="POST">
+         <div class="form-control">
+           <label for="name">Name</label>
+           <input
+             type="text"
+             id="name"
+             name="sender-name"
+             placeholder="Enter Your Name"
+             class="input-field"
+             required
+           />
+         </div>
+         <div class="form-control">
+           <label for="email">Email</label>
+           <input
+             type="email"
+             id="email"
+             name="sender-email"
+             placeholder="Enter Your Email"
+             class="input-field"
+             required
+           />
+         </div>
+         <div class="form-control">
+           <label for="message">Message</label>
+           <textarea
+             id="message"
+             cols="60"
+             rows="10"
+             placeholder="Enter Your Message"
+             name="message"
+             class="input-field"
+             required
+           ></textarea>
+         </div>
+         <input
+           type="submit"
+           value="Submit"
+           id="submit-btn"
+           class="submit-btn"
+         />
+       </form>
+     </div>
+   </div>
+ </section>
+ <!-- Contact Us section Ends -->
+ 
+  <!-- Fixed Social Icons Starts-->
+  <div class="socials">
+   <a href="#" target="_blank"
+     ><img
+       src="assets/twitter-circled.gif"
+       alt="Twitter"
+       loading="lazy"
+       class="socicon"
+   /></a>
+   <a href="#" target="_blank"
+     ><img
+       src="assets/instagram.gif"
+       alt="Instagram"
+       loading="lazy"
+       class="socicon"
+   /></a>
+   <a href="#" target="_blank"
+     ><img
+       src="assets/linkedin-circled.gif"
+       alt="Linkedin"
+       loading="lazy"
+       class="socicon"
+   /></a>
+   <a href="#" target="_blank"
+     ><img src="assets/github.gif" alt="Github" class="socicon"
+   /></a>
+ 
+ <!-- Fixed Social ends -->
+
+
 </body>
+<script src="main.js"></script>
 </html>
