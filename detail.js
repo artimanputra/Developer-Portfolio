@@ -1,7 +1,7 @@
 let detail = {
 
-    name: "",
-    hamePageIntro: "",
+    mainname: "",
+    homePageIntro: "",
 
     aboutIntro: "",
     aboutDetailPara1: "",
@@ -19,9 +19,10 @@ let detail = {
     prjLink2: "",
     prjLink3: "",
 
-    socialLink1: "",
-    socialLink2: "",
-    socialLink3: "",
-    socialLink4: "",
+    socialLinktwitter: "",
+    socialLinkinsta: "",
+    socialLinklinkedin: "",
+    socialLinkgithub: "",
 
 };
+

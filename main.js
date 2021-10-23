@@ -25,32 +25,32 @@ const socialLink4 = document.querySelector('.socialLink4');
 
 
 
-homeName.innerHTML = `<span>I'M</span> Jon Doe`;
-homeIntro.innerHTML = ``;
+homeName.innerHTML = `<span>I'M</span> ${detail.mainname}`;
+homeIntro.innerHTML = `${detail.homePageIntro}`;
 
-aboutIntro.innerHTML = ``;
-
-
-aboutDetail1.innerHTML = ``;
-aboutDetail2.innerHTML = ``;
+aboutIntro.innerHTML = `${detail.aboutIntro}`;
 
 
-prjDetails1.innerHTML = ``;
-prjDetails2.innerHTML = ``;
-prjDetails3.innerHTML = ``;
+aboutDetail1.innerHTML = `${detail.aboutDetailPara1}`;
+aboutDetail2.innerHTML = `${detail.aboutDetailPara2}`;
 
-prjTitle1.innerHTML = ``;
-prjTitle2.innerHTML = ``;
-prjTitle3.innerHTML = ``;
 
-prjLink1.href = ``;
-prjLink2.href = ``;
-prjLink3.href = ``;
+prjDetails1.innerHTML = `${detail.prjDetails1}`;
+prjDetails2.innerHTML = `${detail.prjDetails2}`;
+prjDetails3.innerHTML = `${detail.prjDetails3}`;
 
-socialLink1.href = ``;
-socialLink2.href = ``;
-socialLink3.href = ``;
-socialLink4.href = ``;
+prjTitle1.innerHTML = `${detail.prjTitle1}`;
+prjTitle2.innerHTML = `${detail.prjTitle2}`;
+prjTitle3.innerHTML = `${detail.prjTitle3}`;
+
+prjLink1.href = `${detail.prjLink1}`;
+prjLink2.href = `${detail.prjLink2}`;
+prjLink3.href = `${detail.prjLink3}`;
+
+socialLink1.href = `${detail.socialLinktwitter}`;
+socialLink2.href = `${detail.socialLinkinsta}`;
+socialLink3.href = `${detail.socialLinklinkedin}`;
+socialLink4.href = `${detail.socialLinkgithub}`;
 
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");

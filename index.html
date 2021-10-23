@@ -2,148 +2,190 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Google Font  -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
-  <!--CSS Styles -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
-
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <title>CodeFreaks</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="detail.js"></script>
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav>
-    <h1>CodeFreaks</h1>
-    <ul class="navigation">
-      <li><a href="#about" class="nav-link">About Us</a></li>
-      <!-- <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li> -->
-      <li><a href="#contact" class="nav-link">Contact</a></li>
+
+  <header class="header" id="">
+    <!-- Fixed Navigation Starts -->
+    <ul class="nav">
+      <li class="navOpt">
+        <a href="#home">
+          <img src="assets/homeIcon.png" alt="H">
+          <div class="op">
+            <h2>Home</h2>
+          </div>
+        </a>
+      </li>
+
+      <li class="navOpt">
+        <a href="#about">
+          <img src="assets/about.png" alt="A">
+          <div class="op">
+            <h2>About</h2>
+          </div>
+        </a>
+      </li>
+
+      <li class="navOpt">
+        <a href="#projects">
+          <img src="assets/project.png" alt="A">
+          <div class="op">
+            <h2>Projects</h2>
+          </div>
+        </a>
+      </li>
+
+      <li class="navOpt">
+        <a href="#skills">
+          <img src="assets/skill.png" alt="S">
+          <div class="op">
+            <h2>Skills</h2>
+          </div>
+        </a>
+      </li>
+
+      <li class="navOpt">
+        <a href="#contact">
+          <img src="assets/contact.png" alt="S">
+          <div class="op">
+            <h2>Contact</h2>
+          </div>
+        </a>
+      </li>
+
     </ul>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name="menu-outline"></ion-icon>
-    </button>
-  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="about">
-    <img src="wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">Developer-Portfolio</h2>
-      <p class="bio-text">
-        <span>A Portfolio Making Website</span><br>
-        Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your
-        own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly
-        website is designed to cater to developers and freelancers alike.
-      </p>
+  </header>
+
+  <div class="container" id="home">
+    <div class="imgContainer">
+      <img src="assets/profile.jpg" alt="">
     </div>
-  </section>
 
-  <!-- More about -->
-  <section class="more-about">
-    <h2>Fill The Below Form To Get Your Portfolio Ready!!!</h2>
-    <br>
-  </section>
-  <section class="contact" id="contact">
-    <h2>User Details</h2>
-    <div class="contact-form-container">
-      <div class="contact-form">
-        <form action="https://formspree.io/f/xyylngw" method="POST">
-          <div class="form-control">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
-              required />
-          </div>
-          <div class="form-control">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
-              required />
-          </div>
-          <div class="form-control">
-            <label for="message">Describe Your self</label>
-            <textarea id="message" cols="60" rows="5"
-              placeholder="Hello, I'm in the sophomere year of my college.This are my skills in which I'm proficient,....."
-              name="message" class="input-field" required></textarea>
-          </div>
+    <div class="informationContainer">
 
-          <div class="form-control">
-            <label for="file">Avatar</label>
-            <input type="file" name="sender-email" accept="image/*" class="input-field" id="file-input" required />
-            <!-- <input type="file" accept="image/*" id="file-input"> -->
-          </div>
+      <h6>HI there !</h6>
+      <h1 class="homeName"><span>I'M</span> Jon Doe</h1>
+      <p class="homeIntro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad nisi voluptates at nulla earum voluptatibus
+        ipsa perspiciatis vel eius et ratione quae laborum dolores, incidunt quis corporis!</p>
+      <a href="#">
+        <span>More About Me</span>
+        <img src="assets/about.png" alt="">
 
-          <div class="form-control">
-            <label for="message">Your Skills</label>
-            <textarea id="message" cols="60" rows="1" placeholder="C, C++, etc....." name="message" class="input-field"
-              required></textarea>
-          </div>
+      </a>
+    </div>
 
-          <div class="form-control">
-            <label for="file">Project Thumbnail</label>
-            <input type="file" name="sender-email" accept="image/*" class="input-field" id="file-input" required />
-          </div>
+  </div>
 
-          <div class="form-control">
-            <label for="name">Project Name</label>
-            <input type="text" id="name" name="sender-name" placeholder="Enter Project Name" class="input-field"
-              required />
-          </div>
-          <div class="form-control">
-            <label for="message">Description of Project</label>
-            <textarea id="message" cols="60" rows="5" placeholder="Enter Description" name="message" class="input-field"
-              required></textarea>
-          </div>
 
-          <div class="form-control">
-            <label for="name">Project Demo Link</label>
-            <input type="url" id="name" name="sender-name" placeholder="Enter url" class="input-field" required />
-          </div>
 
-          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
-        </form>
+  <!-- About me section starts -->
+
+
+  <div class="about-container" id="about">
+    <img src="assets/profile.jpg" alt="">
+    <!-- about text -->
+    <div class="about-text">
+      <p> <span> About</span> Me</p>
+      <p class="aboutIntro">Developer & Designer</p>
+      <p class="aboutDetail1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam, magni laboriosam culpa deleniti odit
+        dolores maxime fuga, id at adipisci nihil magnam, eveniet cupiditate quo ad in neque delectus?</p>
+      <p class="aboutDetail2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, laboriosam!</p>
+
+      <button>Hire Me</button>
+      <button>Download CV</button>
+    </div>
+  </div>
+  <!-- About me section Ends-->
+
+  <!-- Projects Section Starts Here -->
+
+  <section class="projects" id="projects">
+
+    <h2 class="projects-title">🔹<span>My</span> Projects🔹</h2>
+    
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/img1.jpg" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title prjTitle1">Expense Tracker</h3>
+        <p class="project-details prjDetails1">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link prjLink1">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/img2.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title prjTitle2">Netflix Clone</h3>
+        <p class="project-details prjDetails2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link prjLink2">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/img3.jpg" alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title prjTitle3">Greeny Earth</h3>
+        <p class="project-details prjDetails3">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link prjLink3">Check it Out</a>
       </div>
     </div>
   </section>
+  <!-- Projects section ends here -->
 
-  <!-- Website scripts -->
-  <script src="assets/js/app.js"></script>
+  <!-- MySkills Section starts here -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">🔹<span>My Top</span> Skills🔹</h2>
 
-  <!-- Ion icons scripts -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script>
-    const fileInput = document.getElementById('file-input');
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/css.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/html.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
 
-    fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
-    // Nav hamburgerburger selections
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/react.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <!-- My skills Section Ends -->
 
-    const burger = document.querySelector("#burger-menu");
-    const ul = document.querySelector("nav ul");
-    const nav = document.querySelector("nav");
-    burger.addEventListener("click", () => {
-      ul.classList.toggle("show");
-    });
+  <!-- Contact Us section starts -->
+  <section class="contact" id="contact">
+    <h2>🔹<span>Get in Touch</span> With Me🔹</h2>
+    <div class="socials">
+      <a href="#" target="_blank" class="socialLink1"><img src="assets/twitter-circled.gif" alt="Twitter" loading="lazy"
+          class="socicon" /></a>
+      <a href="#" target="_blank" class="socialLink2"><img src="assets/instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
+      <a href="#" target="_blank" class="socialLink3"><img src="assets/linkedin-circled.gif" alt="Linkedin" loading="lazy"
+          class="socicon" /></a>
+      <a href="#" target="_blank" class="socialLink4"><img src="assets/github.gif" alt="Github" class="socicon" /></a>
+    </div>
+  </section>
+  <!-- Contact Us section Ends -->
 
-
-
-    // Select nav links
-    const navLink = document.querySelectorAll(".nav-link");
-
-    navLink.forEach((link) =>
-      link.addEventListener("click", () => {
-        ul.classList.remove("show");
-      })
-    );
-  </script>
 </body>
+<script src="main.js"></script>
 
 </html>
