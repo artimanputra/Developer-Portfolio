@@ -26,3 +26,9 @@ This is the basic layout of the website where things need to be replaced with yo
 - Add your project details here `prjDetails1: ""` , `prjDetails2: ""` , `prjDetails3: ""`
 - Attach link of your projects in ` prjLink1: ""` , ` prjLink1: ""` , `prjLink1: ""`
 - You can also change your projects image from here `assets/img1`, `assets/img2` , `assets/img3`
+
+### Socials
+- You can add your twitter link here `socialLinktwitter: ""`
+- You can add your instagram link here `socialLinkinsta: ""`
+- You can add your Linkedin link here `socialLinklinkedin: ""`
+- You can add your github link here `socialLinkgithub: ""`
