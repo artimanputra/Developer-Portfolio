@@ -10,3 +10,19 @@ This is the basic layout of the website where things need to be replaced with yo
 ## HTML ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  
 
 - Change the Title of the Web Page to your name
+
+## Add Your information to details.js
+### Home
+- Add your image in `assets/profile.jpg`
+- Add your name in `mainname: ""`
+- Put your Short Introduction in `homePageIntro: ""`
+
+### About
+- Add your short intro here `aboutIntro: ""`
+- Add your detail introduction here `aboutDetailPara1:""`
+
+### Projects
+- Add your project titles here `prjTitle1: ""` , `prjTitle2: ""` , `prjTitle3: ""`
+- Add your project details here `prjDetails1: ""` , `prjDetails2: ""` , `prjDetails3: ""`
+- Attach link of your projects in ` prjLink1: ""` , ` prjLink1: ""` , `prjLink1: ""`
+- You can also change your projects image from here `assets/img1`, `assets/img2` , `assets/img3`
